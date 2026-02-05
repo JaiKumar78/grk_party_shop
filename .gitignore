@@ -1,0 +1,8 @@
+node_modules
+.env
+/admin
+DEPLOYMENT_CHECKLIST.md
+deployment_migrations.md
+project_status.md
+quick_start.md
+CORS_WARNING.md

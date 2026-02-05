@@ -1,0 +1,65 @@
+# Node.js
+node_modules/
+.env 
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+.pnp/
+.pnp.js
+
+# npm package manager cache
+.npm/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# macOS specific (if developing on macOS)
+.vscode/ # VS Code settings (optional, but often personal)
+
+# MongoDB
+data/db/ # Default MongoDB data directory
+dump/ # MongoDB backup directory (if used)
+
+# Cloudinary / File Uploads
+uploads/ # Temporary local upload folder (if you save files locally before uploading to Cloudinary)
+tmp/ # Temporary files folder
+
+# Build artifacts
+dist/
+build/
+*.tsbuildinfo
+
+# Test files (if any generated)
+coverage/
+.nyc_output/
+
+# Editor-specific files
+.idea/ # IntelliJ IDEA
+*.swp # Vim swap files
+*.swo # Vim swap files
+
+# Dependency directories
+package-lock.json # If you prefer to ignore and let CI generate (less common)
+# yarn.lock # If you prefer to ignore and let CI generate (less common)
+
+# Optional: If you use Docker
+docker-compose.override.yml # Often contains local development specifics
+Dockerfile.local # If you have a local-only Dockerfile
+
+security.md
+notes.txt
+Readme_fixVariantsIndex.md
