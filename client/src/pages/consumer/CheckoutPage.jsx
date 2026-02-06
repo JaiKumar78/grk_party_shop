@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
 import { useSelector as useReduxSelector } from 'react-redux';
 import { useSelector, useDispatch } from 'react-redux';
-// import { useAppDispatch } from '../hooks/reduxHooks';
+// import { useAppDispatch } from '../hooks/reduxhooks';
 import { clearCart } from '../../store/slices/cartSlice';
 import { useGetAllStoresQuery } from '../../store/api/storesApi';
 import { CreditCard, Lock, ArrowLeft, Check, AlertCircle, MapPin, Package, FastForward, Truck, Copy, CheckCircle, ChevronDown } from 'lucide-react';

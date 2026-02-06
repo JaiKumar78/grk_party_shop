@@ -15,7 +15,7 @@ import {
   Store, // NEW: For Store icon
   Settings as SettingsIcon, // NEW: For Settings icon
 } from 'lucide-react';
-import { useAppDispatch } from '../hooks/reduxHooks';
+import { useAppDispatch } from '../hooks/reduxhooks';
 import { logout } from '../store/slices/adminAuthSlice';
 import { motion, AnimatePresence } from 'framer-motion';
 import BackToTop from '../components/BackToTop';
